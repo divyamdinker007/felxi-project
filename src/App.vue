@@ -4,14 +4,16 @@
     <v-main>
       <router-view />
     </v-main>
+      <bottom-navbar></bottom-navbar>
   </v-app>
 </template>
 
 <script>
 import Navbar from './components/Navbar.vue';
+import BottomNavbar from './components/BottomNavbar.vue';
 
 export default {
-  components: { Navbar },
+  components: { Navbar, BottomNavbar },
   name: 'App',
 
   data: () => ({
