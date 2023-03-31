@@ -24,8 +24,8 @@
                                         </v-btn>
                                     </template>
                                     <v-list>
-                                        <v-list-item  @click="$router.push('/bookedit/'+item._id)">
-                                            <v-list-item-title >Edit</v-list-item-title>
+                                        <v-list-item>
+                                            <v-list-item-title>Edit</v-list-item-title>
                                             <v-icon>mdi-pencil</v-icon>
                                         </v-list-item>
                                         <v-list-item>
